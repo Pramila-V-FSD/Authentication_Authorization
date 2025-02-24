@@ -37,7 +37,7 @@ The response will include the token, which you need to use for subsequent reques
 
 4. Get User Info:
 Method: GET
-URL: http://localhost:5000/api/auth/me
+URL: http://localhost:4000/api/auth/me
 Description: Retrieve the authenticated user's information. This endpoint is protected and requires a valid JWT token to access.
 Headers:
 x-auth-token: Your JWT token (from the login response)
